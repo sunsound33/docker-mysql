@@ -1,11 +1,11 @@
-# DockerのMySQLコンテナでも日本語が使いたい！
-docker-mysqlのディレクトリ内に移動してくださいね。
+# DockerのMySQLコンテナで日本語が使いたい！
+docker-mysqlのディレクトリ内に移動してください。
 env.exampleファイルをコピーします。<br>
-コピーした`.env`ファイルにお好みの環境を設定してくださいね。<br>
+コピーした`.env`ファイルにお好みの環境を設定してください。<br>
 ```
  cp .env.example .env
 ```
-mysqlディレクトリ内に使いたいsqlファイルを入れる(サンプルでprefecture.sqlが入っているので消してね。)<br>
+mysqlディレクトリ内に使いたいsqlファイルを入れる(サンプルでprefecture.sqlが入っているのでファイルを差し替えてください。)<br>
 Dockerをビルドしてコンテナを立ち上げる。
 ```
 dokcer-compose build
