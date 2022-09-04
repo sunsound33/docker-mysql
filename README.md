@@ -5,6 +5,7 @@ env.exampleファイルをコピーします。<br>
 ```
  cp .env.example .env
 ```
+mysqlディレクトリ内に使いたいsqlファイルを入れる(サンプルでprefecture.sqlが入っているので消してね。)<br>
 Dockerをビルドしてコンテナを立ち上げる。
 ```
 dokcer-compose build
