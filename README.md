@@ -1,4 +1,4 @@
-# DockerのMySQLコンテナで日本語が使いたい！
+# DockerのMySQLコンテナで日本語を使いたい！
 docker-mysqlのディレクトリ内に移動してください。
 env.exampleファイルをコピーします。<br>
 コピーした`.env`ファイルにお好みの環境を設定してください。<br>
